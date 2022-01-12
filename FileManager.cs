@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace PackageJsonManager
 {
-    internal class Util
+    internal class FileManager
     {
        
 
@@ -63,11 +63,6 @@ namespace PackageJsonManager
 
         }
 
-        public static void saveObjectToFile(Object obj, string filePath)
-        {
-           
-
-        }
 
 
 

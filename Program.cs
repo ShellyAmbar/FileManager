@@ -26,7 +26,7 @@ namespace PackageJsonManager
             string value = Console.ReadLine();
 
             Console.WriteLine("fileName: {0} ", fileName);
-            Util.UpdateObject(fileName, key, value);
+            FileManager.UpdateObject(fileName, key, value);
            
 
         }
